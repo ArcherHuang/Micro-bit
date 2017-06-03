@@ -1,20 +1,5 @@
 /*************************************************************
-  Blynk is a platform with iOS and Android apps to control
-  Arduino, Raspberry Pi and the likes over the Internet.
-  You can easily build graphic interfaces for all your
-  projects by simply dragging and dropping widgets.
-
-    Downloads, docs, tutorials: http://www.blynk.cc
-    Sketch generator:           http://examples.blynk.cc
-    Blynk community:            http://community.blynk.cc
-    Social networks:            http://www.fb.com/blynkapp
-                                http://twitter.com/blynk_app
-
-  Blynk library is licensed under MIT license
-  This example code is in public domain.
-
- *************************************************************
-
+ * 
   This example shows how to use BBC Micro:Bit
   to connect your project to Blynk.
 
@@ -50,13 +35,10 @@ char auth[] = "a17a842931d740e4b01ac11fddb81d88";
 // Create ble serial instance, parameters are ignored for MicroBit
 BLESerial SerialBLE(0, 0, 0);
 
-// Configure on-board buttons
-//pinMode(PIN_BUTTON_A, INPUT_PULLUP);
-//pinMode(PIN_BUTTON_B, INPUT_PULLUP);
-
+// Configure Pin
+#define PIN_BUTTON_A 5
 #define LED_ROW2 27
 #define LED_COL3 10
-#define buttonPin 17
 
 BLYNK_WRITE(V0)
 {
@@ -74,7 +56,8 @@ BLYNK_WRITE(V0)
   }
 }
 
-void setup() {
+void setup() 
+{
   Serial.begin(9600);
 
   SerialBLE.setLocalName("Blynk");
@@ -86,13 +69,14 @@ void setup() {
 
   Serial.println("Waiting for connections...");
 
-  pinMode(buttonPin, INPUT);
+  pinMode(PIN_BUTTON_A, INPUT_PULLUP);
 }
 
-void loop() {
+void loop() 
+{
   SerialBLE.poll();
-  Serial.print("Button Status: ");
-  Serial.println(digitalRead(buttonPin));
+  Serial.print("Button A Status: ");
+  Serial.println(digitalRead(PIN_BUTTON_A));
   if (SerialBLE) {    // If BLE is connected...
     Blynk.run();
   }
