@@ -3,7 +3,7 @@
 ## Contents
 
 - [檔案說明](#檔案說明)
-- [Board and Sensor](#Board-and-Sensor)
+- [開發板與感測器](#board-and-sensor)
 
 ## 檔案說明
 [Back](#contents)
