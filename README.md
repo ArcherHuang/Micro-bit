@@ -1,4 +1,4 @@
-# Micro-bit
+# Micro:bit
 
 ## Contents
 
