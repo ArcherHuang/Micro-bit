@@ -2,6 +2,7 @@
 
 ## Contents
 
+- [通訊協定與網路服務提供商](#通訊協定與網路服務提供商)
 - [檔案說明](#檔案說明)
 - [開發板與感測器](#board-and-sensor)
 - [Pinout Diagram](#pinout-diagram)
@@ -10,6 +11,14 @@
 - [Reference](#reference)
 - [Blog](#blog)
 - [License](#license)
+
+## 通訊協定與網路服務提供商                 
+                            
+| 通訊協定 | 網路服務提供商 |
+|---|---|
+| HTTP | ThingSpeak、MediaTek Cloud Sandbox (MCS)、MediaTek Cloud Sandbox Lite (MCS Lite)、Google Firebase |
+| MQTT | LASS、MediaTek Cloud Sandbox (MCS)、AWS IoT、IBM Bluemix IoT Platform |
+| WebSocket | WoT.City |
 
 ## 檔案說明
 [Back](#contents)
