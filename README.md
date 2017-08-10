@@ -7,6 +7,7 @@
 - [開發板與感測器](#board-and-sensor)
 - [Pinout Diagram](#pinout-diagram)
 - [Integrated Development Environment - IDE](#integrated-development-environment)
+- [App Inventor](#app-inventor)
 - [Service](#service)
 - [Reference](#reference)
 - [Blog](#blog)
