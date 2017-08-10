@@ -46,9 +46,13 @@
 ## Integrated Development Environment
 [Back](#contents)
  
+ * JavaScript Blocks Editor
+   *  [Online Editor](https://makecode.microbit.org/#)
+ * Python Editor
+   *  [Online Editor](http://python.microbit.org/)  
  * Arduino
    *  [Arduino IDE v1.8.2](https://www.arduino.cc/en/Main/Software)
-      
+   
 ## Service
 [Back](#contents)
 
