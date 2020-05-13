@@ -76,7 +76,8 @@
 ## Blog
 [Back](#contents)
 
-* [Archer @ 部落格](https://github.com/ArcherHuang/MyBlog/blob/master/README.md)
+* [Archer @ Learningsky.io 部落格](https://learningsky.io/author/archer/)
+* [Archer @ oranwind.org 部落格](https://oranwind.org/author/archer/)
 
 ## License
 [Back](#contents)
